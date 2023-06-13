@@ -1,0 +1,20 @@
+html {
+    margin:auto
+}
+
+a {
+    all:unset
+}
+
+nav {
+    margin:20px 20px 20px 20px;
+    font-size: 15px;
+}
+
+img {
+    width:200px; height:200px
+}
+
+.profilepic {
+    width:200px; height:266px;
+}
