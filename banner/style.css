@@ -1,0 +1,174 @@
+* {
+	outline: 1px solid #fff;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Bebas Neue", sans-serif;
+	z-index: 5;
+}
+
+body {
+	background-color: #1e1f2f;
+	position: relative;
+}
+
+div.logo {
+	color: #fff;
+	display: flex;
+	position: absolute;
+	top: 125px;
+	left: 130px;
+}
+
+#logo1 {
+	background-color: #fff;
+	width: 31.06px;
+	height: 27.42px;
+}
+
+#logo2 {
+	background-color: #ef233c;
+	top: 27.42px;
+	left: 31.06px;
+	position: absolute;
+	width: 60.47px;
+	height: 68.55px;
+	font-size: 76px;
+	text-align: center;
+}
+#logo2 >p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#logo3 {
+	width: 331px;
+	height: 96px;
+	position: absolute;
+	left: 100.47px;
+	margin-left: 0px;
+	font-size: 96px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 128%;
+	display: flex;
+	align-items: center;
+}
+
+div.text {
+	width: 800px;
+	height: 400px;
+	color: #fff;
+
+	position: absolute;
+	top: 301px;
+	left: 130px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 156px;
+	line-height: 93.5%;
+
+	display: flex;
+	align-items: center;
+}
+
+div.people {
+	color: #fff;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: 789px;
+	left: 138px;
+}
+
+div.time {
+	color: #fff;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: 789px;
+	left: 482px;
+}
+
+p.icon {
+	font-size: 48px;
+	margin-left: 22.06px;
+}
+
+#box1 {
+	width: 558px;
+	height: 644px;
+	position: absolute;
+	top: 385px;
+	left: 691px;
+
+	border: 60px solid #2d2f48;
+	border-bottom: none;
+	z-index: 1;
+}
+
+#box2 {
+	width: 504px;
+	height: 618px;
+	position: absolute;
+	top: 166px;
+	left: 957px;
+	z-index: 2;
+	border: 60px solid #ffffff;
+}
+
+#box3 {
+	width: 558px;
+	height: 644px;
+	position: absolute;
+	top: -179px;
+	left: 1169px;
+	z-index: 3;
+	border: 60px solid #48596d;
+	border-top: none;
+	border-right: none;
+}
+
+#box4 {
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	top: 305px;
+	left: 1089px;
+	z-index: 3;
+	border: 40px solid #e82c4f;
+}
+
+#box5 {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 385px;
+	left: 1169px;
+	z-index: 3;
+	border: 20px solid #ffffff;
+}
+
+#box6 {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 585px;
+	left: 1089px;
+	z-index: 3;
+	border: 20px solid #3256a1;
+}
+
+#circle {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 585px;
+	left: 1249px;
+	z-index: 3;
+	border: 20px solid #ffffff;
+	border-radius: 100%;
+}
