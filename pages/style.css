@@ -1,5 +1,5 @@
 html {
-    margin-left: 20px ;
+    margin-left: 10% ;
 }
 
 a {
@@ -10,39 +10,28 @@ nav {
     margin:20px 20px 20px 20px;
     font-size: 15px;
     font-family: monospace;
-    
+    display: flex;
+    gap: 5px;
+}
+
+nav > a {
+    border: 1px solid #333333;
+    margin: 5px;
+    padding: 9px;
+    border-radius: 15px 5px 15px 5px;
+    background-color: aqua;
 }
 
 img {
     width:200px; height:200px ;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 60px;
     display: flex;
+    ;
 }
 
 .profilepic {
     width:200px; height:266px;
     float:left;
     margin: 0px 20px;
-}
-
-/* flex */
-
-.container {
-
-}
-
-.box {
-    width: 100px;
-    height: 100px;
-}
-
-#red {
-    backgroud-color: #red;
-}
-#yellow {
-    backgroud-color: #lightyellow;
-}
-#blue {
-    backgroud-color: #lightblue;
 }
