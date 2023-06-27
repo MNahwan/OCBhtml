@@ -1,5 +1,5 @@
 * {
-	outline: 1px solid #fff;
+	/* outline: 1px solid #fff; */
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -8,11 +8,17 @@
 }
 
 body {
-	/* outline: 1px solid #ffffff; */
+	background-color: #ffffff;
+}
+
+main {
 	background-color: #1e1f2f;
 	position: relative;
+	overflow: hidden;
 	width: 1611px;
 	height: 936px;
+	left: 20px;
+	top: 20px;
 }
 
 div.logo {
